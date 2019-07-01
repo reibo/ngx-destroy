@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953d0444-4ff1-4705-8e8e-8a225ad6b6bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+            <state relative-caret-position="232">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -110,27 +110,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="reibo-ngx-destroy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reibo-ngx-destroy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reibo-ngx-destroy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reibo-ngx-destroy" type="462c0819:PsiDirectoryNode" />
-              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reibo-ngx-destroy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reibo-ngx-destroy" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561716802984</updated>
-      <workItem from="1561716804435" duration="4860000" />
+      <workItem from="1561716804435" duration="5419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4860000" />
+    <option name="totallyTimeSpent" value="5419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="698" y="40" width="1222" height="900" extended-state="0" />
@@ -185,12 +165,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29576272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29576272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33838382" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33838382" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -325,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        <state relative-caret-position="232">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="48" />
         </state>
       </provider>
     </entry>
