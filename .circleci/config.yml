@@ -31,6 +31,7 @@ jobs:
           key: node_modules-{{ checksum "package-lock.json" }}
           paths:
             - node_modules
+
   build:
     <<: *defaults
     steps:
@@ -49,21 +50,24 @@ jobs:
           key: build-{{ .Revision }}
           paths:
             - dist/
+
   prod-publish:
     <<: *defaults
-      steps:
-        - checkout
-        - restore_cache:
-            name: Restore build
-            key: build-{{ .Revision }}
-        - run: git config user.name "Bo Vandersteene"
-        - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-        - run:
-            name: pre-publish
-            command: cp README.md dist/  && cp package.json dist/
-        - run:
-            name: publish
-            command: npm publish --access=public --registry=https://registry.npmjs.org/ --folder dist
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore build
+          key: build-{{ .Revision }}
+      - run: git config user.name "Bo Vandersteene"
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run:
+          name: pre-publish
+          command: cp README.md dist/  && cp package.json dist/
+      - run:
+          name: publish
+          command: npm publish --access=public --registry=https://registry.npmjs.org/ --folder dist
+      #
+      # - run: npm run lib:publish
 
 workflows:
   version: 2
