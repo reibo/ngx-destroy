@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write \"**/*.{js,json,css,md,ts}\""
+    "prettier": "prettier --write \"**/*.{js,json,css,md,ts}\"",
+    "build": "tsc",
+    "release:patch": "npm version patch && git push --follow-tags"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
   "dependencies": {
-    "rxjs": "^6.5.2"
+    "prettier": "^1.18.2",
+    "rxjs": "6.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
   }
 }

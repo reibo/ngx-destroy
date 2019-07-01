@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "importHelpers": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"],
+    "lib": [
+      "es2017","es2015","dom","es6"
+    ],
+    "baseUrl": "./src",
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false,
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "moduleResolution": "node"
+  },
+  "exclude": ["dist", "node_modules"]
+}
